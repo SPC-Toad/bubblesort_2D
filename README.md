@@ -1,5 +1,3 @@
-Here's a `README.md` file for your C program:
-
 ```markdown
 # String Sorting Program
 
@@ -52,8 +50,6 @@ gamma
 india
 foxtrot
 kila
-
-
 ```
 
 **Output**:
@@ -100,26 +96,27 @@ papa
 
 ## Files
 
-- `sort_strings.c`: The main source file containing the program.
+- `Bubblesort2D.c`: The main source file containing the program.
 
-## Compilation and Execution
+## Makefile
+
+```makefile
+bs:
+	gcc Bubblesort2D.c -o bs
+
+clean:
+	rm -f bs
+```
 
 Use the following commands to compile and execute the program:
 
 ```sh
+make
 ./bs
 # add "< test.txt" to use test case
 ./bs < test.txt
 ```
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Author
 
-Your Name
-
-```
-
-Replace "Your Name" with your actual name if you want to include it. Save this content as `README.md` in the same directory as your C program.
+Sangyun Kim
