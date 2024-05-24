@@ -1,4 +1,3 @@
-```markdown
 # String Sorting Program
 
 This C program prompts the user to input multiple lines of data, sorts the lines in alphabetical order using the bubble sort algorithm, and then displays the sorted list.
